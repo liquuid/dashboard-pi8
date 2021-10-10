@@ -1,0 +1,1 @@
+web: gunicorn dashboardpi8.wsgi --log-file -

@@ -22,7 +22,7 @@
                       {% if msg %}
                         <span class="text-danger">{{ msg }}</span>
                       {% else %}
-                        Add your credentials
+                        Insira suas credenciais
                       {% endif %}  
                   </h6>
                 </div>
@@ -43,7 +43,7 @@
 
                       <div class="col-md-3 px-md-1">
                         <div class="form-group">
-                          <label>Password</label>
+                          <label>Senha</label>
                           {{ form.password }}
                         </div>
                       </div>
@@ -54,7 +54,7 @@
                 <div class="card-footer">
                   <button type="submit" name="login" class="btn btn-fill btn-primary">Login</button>
                   &nbsp; &nbsp;
-                  Don't have an account? <a href="{% url 'register' %}" class="text-primary">Create</a>
+                  Não tem uma conta ? <a href="{% url 'register' %}" class="text-primary">Crie</a>
                 </div>
 
               </form>
